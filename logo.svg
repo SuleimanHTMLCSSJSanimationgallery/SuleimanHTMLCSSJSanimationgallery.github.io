@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#131c31"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </radialGradient>
+
+    <!-- Primary brand gradient: cyan → indigo → pink -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#00f2fe"/>
+      <stop offset="45%"  stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Secondary gradient (reversed for accents) -->
+    <linearGradient id="accentGrad" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ec4899"/>
+      <stop offset="55%"  stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+
+    <!-- Glow for bracket arms -->
+    <filter id="glowSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Strong glow for background orbs -->
+    <filter id="glowStrong" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Inner shadow / depth -->
+    <filter id="innerDepth" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Clip to rounded square -->
+    <clipPath id="roundedClip">
+      <rect x="0" y="0" width="500" height="500" rx="100" ry="100"/>
+    </clipPath>
+
+    <!-- Stroke gradient for brackets -->
+    <linearGradient id="leftBracketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#00f2fe" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="rightBracketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#6366f1" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="slashGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00f2fe" stop-opacity="0.8"/>
+      <stop offset="50%"  stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Wave / animation pulse gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00f2fe" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#00f2fe" stop-opacity="0.9"/>
+      <stop offset="75%"  stop-color="#ec4899" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============================================================
+       ROOT CONTAINER — rounded-square background
+       ============================================================ -->
+  <g clip-path="url(#roundedClip)">
+
+    <!-- Base fill -->
+    <rect width="500" height="500" fill="url(#bgGrad)"/>
+
+    <!-- Subtle top-left radial glow -->
+    <circle cx="90"  cy="90"  r="140" fill="#6366f1" opacity="0.10" filter="url(#glowStrong)"/>
+    <!-- Subtle bottom-right glow -->
+    <circle cx="420" cy="420" r="130" fill="#ec4899" opacity="0.09" filter="url(#glowStrong)"/>
+    <!-- Center cyan glow -->
+    <circle cx="250" cy="250" r="120" fill="#00f2fe" opacity="0.05" filter="url(#glowStrong)"/>
+
+    <!-- Fine dot-grid overlay for texture -->
+    <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.9" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+    <rect width="500" height="500" fill="url(#dotGrid)"/>
+
+    <!-- ============================================================
+         OUTER RING — thin gradient border
+         ============================================================ -->
+    <rect x="18" y="18" width="464" height="464" rx="84" ry="84"
+          fill="none"
+          stroke="url(#brandGrad)"
+          stroke-width="1.8"
+          opacity="0.35"/>
+
+    <!-- ============================================================
+         ANIMATED WAVE BARS (below main symbol — "animation" metaphor)
+         3 horizontal pulse bars
+         ============================================================ -->
+    <!-- Bar 1 (tallest) -->
+    <rect x="130" y="368" width="8" height="42" rx="4" fill="url(#brandGrad)" opacity="0.9"/>
+    <!-- Bar 2 -->
+    <rect x="148" y="374" width="8" height="30" rx="4" fill="url(#brandGrad)" opacity="0.75"/>
+    <!-- Bar 3 (tallest) -->
+    <rect x="166" y="360" width="8" height="52" rx="4" fill="url(#brandGrad)" opacity="0.95"/>
+    <!-- Bar 4 -->
+    <rect x="184" y="372" width="8" height="34" rx="4" fill="url(#brandGrad)" opacity="0.7"/>
+    <!-- Bar 5 (peak) -->
+    <rect x="202" y="352" width="8" height="60" rx="4" fill="url(#brandGrad)" opacity="1.0"/>
+    <!-- Bar 6 -->
+    <rect x="220" y="365" width="8" height="40" rx="4" fill="url(#brandGrad)" opacity="0.8"/>
+    <!-- Bar 7 (tallest center) -->
+    <rect x="238" y="345" width="8" height="68" rx="4" fill="url(#brandGrad)" opacity="1.0"/>
+    <!-- Bar 8 -->
+    <rect x="256" y="358" width="8" height="48" rx="4" fill="url(#brandGrad)" opacity="0.85"/>
+    <!-- Bar 9 (peak) -->
+    <rect x="274" y="350" width="8" height="58" rx="4" fill="url(#brandGrad)" opacity="0.95"/>
+    <!-- Bar 10 -->
+    <rect x="292" y="366" width="8" height="38" rx="4" fill="url(#brandGrad)" opacity="0.72"/>
+    <!-- Bar 11 -->
+    <rect x="310" y="360" width="8" height="48" rx="4" fill="url(#brandGrad)" opacity="0.88"/>
+    <!-- Bar 12 -->
+    <rect x="328" y="372" width="8" height="32" rx="4" fill="url(#brandGrad)" opacity="0.65"/>
+    <!-- Bar 13 -->
+    <rect x="346" y="368" width="8" height="40" rx="4" fill="url(#brandGrad)" opacity="0.8"/>
+    <!-- Bar 14 -->
+    <rect x="364" y="374" width="8" height="28" rx="4" fill="url(#brandGrad)" opacity="0.6"/>
+
+    <!-- Thin horizontal separator above bars -->
+    <line x1="110" y1="358" x2="390" y2="358" stroke="url(#waveGrad)" stroke-width="1" opacity="0.4"/>
+
+    <!-- ============================================================
+         MAIN SYMBOL: stylized < /> code brackets
+         Bold, rounded-cap, glowing strokes
+         ============================================================ -->
+
+    <!-- ❮ LEFT BRACKET — thick rounded polyline -->
+    <polyline
+      points="210,148 148,250 210,352"
+      fill="none"
+      stroke="url(#leftBracketGrad)"
+      stroke-width="28"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#glowSoft)"
+    />
+
+    <!-- ❯ RIGHT BRACKET -->
+    <polyline
+      points="290,148 352,250 290,352"
+      fill="none"
+      stroke="url(#rightBracketGrad)"
+      stroke-width="28"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      filter="url(#glowSoft)"
+    />
+
+    <!-- / SLASH — diagonal through center -->
+    <line
+      x1="272" y1="140"
+      x2="228" y2="360"
+      stroke="url(#slashGrad)"
+      stroke-width="20"
+      stroke-linecap="round"
+      filter="url(#glowSoft)"
+    />
+
+    <!-- ============================================================
+         INNER HIGHLIGHT LINES (thinner, brighter — inner glow effect)
+         ============================================================ -->
+    <polyline
+      points="210,155 153,250 210,345"
+      fill="none"
+      stroke="#00f2fe"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.45"
+    />
+    <polyline
+      points="290,155 347,250 290,345"
+      fill="none"
+      stroke="#ec4899"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.45"
+    />
+    <line
+      x1="268" y1="148"
+      x2="232" y2="352"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      opacity="0.25"
+    />
+
+    <!-- Corner accent dots -->
+    <circle cx="210" cy="148" r="9" fill="#00f2fe" opacity="0.7" filter="url(#glowSoft)"/>
+    <circle cx="210" cy="352" r="9" fill="#6366f1" opacity="0.7" filter="url(#glowSoft)"/>
+    <circle cx="290" cy="148" r="9" fill="#6366f1" opacity="0.7" filter="url(#glowSoft)"/>
+    <circle cx="290" cy="352" r="9" fill="#ec4899" opacity="0.7" filter="url(#glowSoft)"/>
+
+  </g>
+
+  <!-- ============================================================
+       OUTER GRADIENT BORDER RING (outside clip)
+       ============================================================ -->
+  <rect x="2" y="2" width="496" height="496" rx="101" ry="101"
+        fill="none"
+        stroke="url(#brandGrad)"
+        stroke-width="3"
+        opacity="0.6"/>
+</svg>
