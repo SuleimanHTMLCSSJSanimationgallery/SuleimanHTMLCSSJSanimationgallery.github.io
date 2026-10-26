@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Suleiman Hajizadeh</title>
+    <link rel="shortcut icon" href="image/HTML.png" />
+
+    <!-- Swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--header design-->
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello I am</h3>
+        <h1>Suleiman Hajizadeh</h1>
+        <p>
+          A Pharmacist, Bioinformatician, and Web Developer targeting Computational Biology & Genomics.
+        </p>
+
+        <div class="social-meadia">
+          <a href="https://www.facebook.com/suleiman.hajizadeh/"
+            ><i class="bx bxl-facebook" style="font-size: 500%"></i
+          ></a>
+          <a href="https://x.com/SuleimHajizadeh"
+            ><i class="bx bxl-twitter" style="font-size: 500%"></i
+          ></a>
+          <a href="https://www.instagram.com/suleiman_hajizadeh/"
+            ><i class="bx bxl-instagram-alt" style="font-size: 500%"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/suleiman-hajizadeh-609732213/"
+            ><i class="bx bxl-linkedin" style="font-size: 500%"></i
+          ></a>
+        </div>
+
+        <a href="Suleyman-Mehdi-oglu-Hajizadeh_Eng_.pdf" class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0" id="Web">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1" id="Pharma">
+            <i class="fa-solid fa-prescription-bottle-medical"></i>
+            <h3>Pharmacist</h3>
+          </div>
+          <div class="profession" style="--i: 2" id="Design">
+            <i class="bx bx-palette"></i>
+            <h3>Web Designer</h3>
+          </div>
+          <div class="profession" style="--i: 3" id="Bioinfo">
+            <i class="fa-solid fa-database"></i>
+            <h3>Bioinformatician</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="" />
+      </div>
+    </section>
+
+    <!-- About Section Design-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="image/about.jpg" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help Your Next Project!</h3>
+        <p>
+          I am Suleiman Hajizadeh, a pharmacist and bioinformatician bridging the gap between computational biology, genomics, and web technologies. I specialize in structural biology (AlphaFold2, molecular docking), evolutionary genetics (phylogenetic pipeline reconstruction), and transcriptomics. My academic target is the MPhil in Computational Biology at the University of Cambridge.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Custom frontend and backend web applications using modern Javascript ecosystems. Designing fully responsive academic portfolios, data dashboards, and web tools optimized for research presentation.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Scientific figure illustration, poster layouts, and digital branding assets. Designing visually compelling user interfaces and biological diagrams ready for scientific publication.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-database"></i>
+          <h3>Bioinformatics</h3>
+          <p>
+            Processing high-throughput sequencing data, structural validation (AlphaFold2/Vina), phylogenetic tree building, and differential gene expression analysis using Python and R languages.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="image/portfolio1.jpg" alt="AlphaFold-TNBC" />
+          <div class="portfolio-layer">
+            <h4>AlphaFold-TNBC</h4>
+            <p>
+              Structural biology modeling and molecular docking of AKT1 kinase in triple-negative breast cancer (TNBC) using AlphaFold2 coordinates.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/AlphaFold-TNBC"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/portfolio2.jpg" alt="MEGA Evolutionary Pipeline" />
+          <div class="portfolio-layer">
+            <h4>MEGA Evolutionary Pipeline</h4>
+            <p>
+              Neighbor-joining phylogenomics algorithm and evolutionary distance calculations (JC69/K2P) implemented from scratch in pure Python.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/MEGA-Software-Molecular-Evolutionary-Genetics-Analysis"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/portfolio3.png" alt="Bioinformatics RNA-Seq Analysis" />
+          <div class="portfolio-layer">
+            <h4>Bioinformatics RNA-Seq</h4>
+            <p>
+              Full transcriptomics pipeline from raw sequence reads (SRA) to quality control, alignment, and differential gene expression analysis.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/Bioinformatics-analysis"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/portfolio4.jpeg" alt="stn7_stn8_pipeline" />
+          <div class="portfolio-layer">
+            <h4>stn7_stn8_pipeline</h4>
+            <p>
+              Chloroplast thylakoid kinase modeling and ligand preparation pipeline utilizing AutoDock Vina molecular docking scripts.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/IMBB"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/portfolio5.jpeg" alt="Biopython Practice Suite" />
+          <div class="portfolio-layer">
+            <h4>Biopython Practice Suite</h4>
+            <p>
+              Jupyter notebook collection containing PDB parsers, Entrez databases, clinical trial ANOVA, and spatial genetics analysis.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/Biopython-Practised"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="image/portfolio6.jpg" alt="WCU Computational Biomath" />
+          <div class="portfolio-layer">
+            <h4>WCU Computational Biomath</h4>
+            <p>
+              Teaching notes and biological simulation scripts (predator-prey, cellular automata, and boids flocking) for biomathematical modelling.
+            </p>
+            <a href="https://github.com/SuleimanHajizadeh/Bioinformatics"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section Design -->
+    <div class="testimonial-container">
+      <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="image/testimonial1.png" alt="" />
+              <h3>David Hajizadeh</h3>
+              <p>
+                Testimonial is a formal statement testifying to someone's
+                character and qualifications. David is a highly skilled
+                professional with a strong background in web development and
+                design, consistently delivering exceptional results and
+                demonstrating outstanding dedication to his work.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="image/testimonial2.png" alt="" />
+              <h3>Suleiman Hajizadeh</h3>
+              <p>
+                Suleiman is an innovative web developer and bioinformatician,
+                always striving for excellence and delivering creative
+                solutions. His dedication and expertise make him a valuable
+                asset to any project.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="image/testimonial3.png" alt="" />
+              <h3>Saul Hajizadeh</h3>
+              <p>
+                Saul is a talented web designer and developer, known for his
+                creativity and attention to detail. His ability to transform
+                ideas into visually stunning and functional websites is truly
+                impressive.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer Section Design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2026 by Snami | All Right Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="./js/fontawesome.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

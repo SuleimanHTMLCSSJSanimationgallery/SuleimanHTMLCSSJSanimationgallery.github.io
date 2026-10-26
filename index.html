@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suleiman HTML CSS JS Animation Gallery | Creative UI & Animation Hub</title>
+  
+  <meta name="description" content="Centralized interactive showcase featuring 57+ production-ready HTML, CSS, and JavaScript animations, 3D web experiments, glassmorphism UI components, and modern web templates." />
+  <meta name="keywords" content="HTML, CSS, JavaScript, Web Animations, 3D CSS, Glassmorphism, UI Components, Suleiman Hajizadeh, Western Caspian University, Frontend" />
+  <meta name="author" content="Suleiman Hajizadeh" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Suleiman HTML CSS JS Animation Gallery" />
+  <meta property="og:description" content="Explore 57+ interactive creative web design layouts, UI components, and animations with live demos and code." />
+  <meta property="og:url" content="https://suleimanhtmlcssjsanimationgallery.github.io/" />
+
+  <!-- Favicon & Manifest -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Ambient Atmosphere -->
+  <div class="bg-atmosphere" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="./index.html" class="brand-link">
+        <div class="brand-logo">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path d="M28 32 L46 50 L28 68" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52 68 L74 68" stroke="#00f2fe" stroke-width="8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="brand-title">AnimationGallery</span>
+        <span class="nav-badge">v2.0 • 57 Demos</span>
+      </a>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="btn-icon" aria-label="Toggle Color Theme" title="Toggle theme"></button>
+        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Source Repository" title="GitHub Codebase">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="hero-pill">
+        <span>✨ Pure Web Technologies</span>
+        <span>•</span>
+        <span>HTML5 / CSS3 / JavaScript</span>
+      </div>
+      <h1 class="hero-title">
+        Creative UI Components & <br />
+        <span class="gradient-text">Interactive Web Animations</span>
+      </h1>
+      <p class="hero-subtitle">
+        A centralized digital exhibition of 57+ modern web animation experiments, 3D perspective transforms, glassmorphic UI cards, authentication portals, and interactive layouts.
+      </p>
+
+      <!-- Stats Grid -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">57</div>
+          <div class="stat-label">Total Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">10</div>
+          <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Vanilla Web Stack</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">0ms</div>
+          <div class="stat-label">Live In-Browser Demo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls & Filters -->
+    <section class="controls-container">
+      <div class="search-wrapper">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name, category, or tag (e.g. 3d, login, clock, button)..." autocomplete="off" />
+        <span class="search-shortcut">/</span>
+        <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Categories Pills -->
+      <div id="filterBar" class="filter-bar"></div>
+
+      <!-- View Toolbar -->
+      <div class="view-toolbar">
+        <div>
+          Showing <strong id="visibleCount">57</strong> of <span id="totalCount">57</span> projects
+        </div>
+        <div class="view-modes">
+          <button id="gridViewBtn" class="view-btn active" title="Grid View">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </button>
+          <button id="listViewBtn" class="view-btn" title="List View">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section id="galleryGrid" class="gallery-grid"></section>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="empty-state">
+      <div class="empty-icon">🔍</div>
+      <h3>No matching animations found</h3>
+      <p style="color: var(--text-secondary); margin-top: 0.5rem;">Try modifying your search term or select another category filter.</p>
+    </div>
+  </main>
+
+  <!-- Interactive Preview Modal -->
+  <div id="previewModal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <header class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-source-pill">LIVE SANDBOX</span>
+          <h3 id="modalTitle" class="modal-title">Project Name</h3>
+        </div>
+        <div class="modal-controls">
+          <a id="modalExternalLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-icon" title="Open Netlify Live Demo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
+          <a id="modalCodeLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-icon" title="View Code on GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </a>
+          <button id="modalFullscreenBtn" class="btn-icon" title="Toggle Fullscreen">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+          </button>
+          <button id="modalCloseBtn" class="btn-icon" title="Close Preview (Esc)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </header>
+      <div class="modal-iframe-container">
+        <div id="modalLoader" class="modal-loader">
+          <div class="spinner"></div>
+        </div>
+        <iframe id="modalIframe" class="modal-iframe" title="Interactive Preview" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h4>Suleiman HTML CSS JS Animation Gallery</h4>
+        <p>Western Caspian University • Created & Maintained by Suleiman Hajizadeh</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer">Organization</a>
+        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer">Codebase</a>
+        <a href="https://github.com/SuleimanHajizadeh" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+        <a href="mailto:suleyman.hacizade1@gmail.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
