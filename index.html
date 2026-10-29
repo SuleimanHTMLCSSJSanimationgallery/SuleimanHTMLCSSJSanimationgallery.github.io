@@ -50,8 +50,12 @@
       </a>
 
       <div class="nav-actions">
+        <a href="#privateVaultNotice" class="nav-access-btn" title="Məxfi məlumatlara və kod bazasına giriş üçün müraciət edin">
+          <span>🔒</span>
+          <span>Access İstə</span>
+        </a>
         <button id="themeToggleBtn" class="btn-icon" aria-label="Toggle Color Theme" title="Toggle theme"></button>
-        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Source Repository" title="GitHub Codebase">
+        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Source Repository" title="GitHub Codebase (Private)">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
         </a>
       </div>
@@ -91,6 +95,58 @@
         <div class="stat-card">
           <div class="stat-number">0ms</div>
           <div class="stat-label">Live In-Browser Demo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Private Data Vault & Access Request Notice -->
+    <section id="privateVaultNotice" class="private-vault-section">
+      <div class="private-vault-card">
+        <div class="private-vault-header">
+          <div class="vault-badge">
+            <span class="vault-badge-icon">🔒</span>
+            <span>MƏXFİ MƏLUMAT BAZASI &amp; ACCESS İCAZƏSİ</span>
+          </div>
+          <h2 class="vault-title">
+            Əsas Kod Bazası və Xam Datalar <span class="gradient-text">Private (Məxfi)</span> Statusdadır
+          </h2>
+        </div>
+
+        <div class="vault-grid">
+          <div class="vault-col">
+            <div class="vault-lang-pill">🇦🇿 Azərbaycan Dilində</div>
+            <p class="vault-desc">
+              Bu platformanın əsas monoreposu, bütün 57 animasiya modulunun xam mənbə kodları, <code>Developer-Hazirligi</code> kurikulum materialları və 88+ səhifəlik <strong>Obsidian LLM Wiki</strong> bilik bazası müəllif hüquqlarının və layihə bütövlüyünün qorunması məqsədilə <strong>Private (Məxfi)</strong> repozitoriyada saxlanılır.
+            </p>
+            <p class="vault-desc-sub">
+              Əgər işə qəbul (recruitment), akademik qiymətləndirmə, elmi/texniki araşdırma və ya əməkdaşlıq məqsədilə repozitoriyaya <strong>giriş icazəsi (access)</strong> əldə etmək istəyirsinizsə, birbaşa elektron poçt ünvanıma müraciət edə bilərsiniz.
+            </p>
+          </div>
+
+          <div class="vault-col">
+            <div class="vault-lang-pill">🇬🇧 In English</div>
+            <p class="vault-desc">
+              All core source code repositories, raw project assets, the <code>Developer-Hazirligi</code> educational archives, and the internal <strong>Obsidian LLM Wiki</strong> knowledge base within this organization are strictly <strong>Private</strong> to uphold intellectual property rights.
+            </p>
+            <p class="vault-desc-sub">
+              If you are a recruiter, reviewer, engineer, or collaborator wishing to <strong>request access</strong> to the private codebase and documentation, please feel free to reach out directly via email.
+            </p>
+          </div>
+        </div>
+
+        <div class="vault-actions">
+          <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%3A%20SuleimanHTMLCSSJSanimationgallery%20Private%20Data%20Vault" class="btn-vault btn-vault-primary" title="E-poçt proqramında müraciət məktubu açın">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Müraciət Göndər: suleyman.hacizade1@gmail.com</span>
+          </a>
+          <button id="copyEmailBtn" class="btn-vault btn-vault-secondary" type="button" title="E-poçt ünvanını buferə kopyalayın">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span id="copyEmailText">E-poçtu Kopyala</span>
+          </button>
+          <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer" class="btn-vault btn-vault-outline" title="GitHub üzərində Private Monoreponu nəzərdən keçirin">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <span>🔒 Private Monorepo ↗</span>
+          </a>
         </div>
       </div>
     </section>
@@ -173,11 +229,16 @@
     <div class="footer-content">
       <div class="footer-brand">
         <h4>Suleiman HTML CSS JS Animation Gallery</h4>
-        <p>Western Caspian University • Created & Maintained by Suleiman Hajizadeh</p>
+        <p>Western Caspian University • Created &amp; Maintained by Suleiman Hajizadeh</p>
+        <p class="footer-vault-notice">
+          🔒 <strong>Məxfi Baza Qeydi:</strong> Əsas monorepo, daxili datalar və LLM Wiki arxivi <em>Private</em> statusdadır. Giriş icazəsi (access) almaq üçün: 
+          <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%3A%20SuleimanHTMLCSSJSanimationgallery">suleyman.hacizade1@gmail.com</a>
+        </p>
       </div>
       <div class="footer-links">
+        <a href="#privateVaultNotice" style="color: var(--accent-cyan); font-weight: 600;">🔒 Access İstə</a>
         <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer">Organization</a>
-        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer">Codebase</a>
+        <a href="https://github.com/SuleimanHTMLCSSJSanimationgallery/SuleimanHTMLCSSJSanimationgallery" target="_blank" rel="noopener noreferrer">Codebase (Private)</a>
         <a href="https://github.com/SuleimanHajizadeh" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
         <a href="mailto:suleyman.hacizade1@gmail.com">Contact</a>
       </div>
