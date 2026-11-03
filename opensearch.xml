@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AnimationGallery</ShortName>
+  <Description>Search 57+ Creative HTML, CSS &amp; JavaScript Web Animations and UI Components</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="32" height="32" type="image/png">https://suleimanhtmlcssjsanimationgallery.github.io/favicon-32.png</Image>
+  <Image width="192" height="192" type="image/png">https://suleimanhtmlcssjsanimationgallery.github.io/favicon-192.png</Image>
+  <Url type="text/html" template="https://suleimanhtmlcssjsanimationgallery.github.io/?q={searchTerms}"/>
+  <Contact>suleyman.hacizade1@gmail.com</Contact>
+  <Developer>Suleiman Hajizadeh (Western Caspian University)</Developer>
+  <Attribution>© 2026 Suleiman Hajizadeh • All Rights Reserved</Attribution>
+  <AdultContent>false</AdultContent>
+  <Language>en-us</Language>
+</OpenSearchDescription>

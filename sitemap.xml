@@ -1,351 +1,646 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Suleiman HTML CSS JS Animation Gallery</image:title>
+      <image:caption>57+ Creative UI Components, Web Animations &amp; Interactive Web Templates by Suleiman Hajizadeh</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo.png</image:loc>
+      <image:title>Animation Gallery Emblem</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/3D-Animation-Hover-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>3D Animation Hover Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: 3D Animation Hover Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/3D-Glowing-Checkbox-Buttons/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>3D Glowing Checkbox Buttons — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: 3D Glowing Checkbox Buttons by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/3D-Real-Glassmorphism-Testimonials-Card/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>3D Real Glassmorphism Testimonials Card — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: 3D Real Glassmorphism Testimonials Card by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Advanced-Mini-Calendar-Mini-Project/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Advanced Mini Calendar Mini Project — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Advanced Mini Calendar Mini Project by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Backgrounds-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Backgrounds Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Backgrounds Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Gaming-Website/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Gaming Website — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Gaming Website by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Gender-Selection-Page/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Gender Selection Page — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Gender Selection Page by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Glassmorphism-Login-Form/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Glassmorphism Login Form — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Glassmorphism Login Form by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Glassmorphism-Parallax-Login-Form/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-1/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-2/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-3/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Glassmorphism Parallax Login Form — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Glassmorphism Parallax Login Form by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-and-Registration-Form/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Login and Registration Form — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Login and Registration Form by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-1/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Login Form 1 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Login Form 1 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-2/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Login Form 2 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Login Form 2 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Login-Form-3/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Login Form 3 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Login Form 3 by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Navigation-Bar/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Navigation Bar — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Navigation Bar by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Navigation-Menu-Indicator/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Navigation Menu Indicator — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Navigation Menu Indicator by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Portfolio-Website-Template-in-Pesonal-Website-with-Text-Typing-Animation/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Portfolio Website Template in Pesonal Website with Text Typing Animation — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Portfolio Website Template in Pesonal Website with Text Typing Animation by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Profile-Card/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Profile Card — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Profile Card by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Service-Section-Card-UI-Design/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Service Section Card UI Design — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Service Section Card UI Design by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Tab-Bar-Navigation/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Tab Bar Navigation — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Tab Bar Navigation by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animated-Working-Analog-Clock/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animated Working Analog Clock — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animated Working Analog Clock by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Animation-Effects-Happy-New-Year/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Animation Effects Happy New Year — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Animation Effects Happy New Year by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Barak-Obama/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/CSS-Glowing-Gradient-Cards-with-Hover-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Barak Obama — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Barak Obama by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Calculator/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Calculator — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Calculator by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Colorful-Button-Ripple-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Colorful Button Ripple Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Colorful Button Ripple Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Creative-List-Design/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Creative List Design — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Creative List Design by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Creative-Menu-Hover-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Creative Menu Hover Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Creative Menu Hover Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/CSS-Glowing-Gradient-Cards-with-Hover-Effects/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>CSS Glowing Gradient Cards with Hover Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: CSS Glowing Gradient Cards with Hover Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Digital-Clock/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Digital Clock — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Digital Clock by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Dynamic-Calendar/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Dynamic Calendar — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Dynamic Calendar by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Fullscreen-Website-Slider/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Fullscreen Website Slider — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Fullscreen Website Slider by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Get-User-Location/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Get User Location — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Get User Location by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Glass-Ball-Particle-Animation-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Glass Ball Particle Animation Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Glass Ball Particle Animation Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Glowing-Gradient-Glassmorphism-Card-Hover-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Glowing Gradient Glassmorphism Card Hover Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Glowing Gradient Glassmorphism Card Hover Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Glowing-Line-Animation-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Glowing Line Animation Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Glowing Line Animation Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Happy-Holi-Animation-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Happy Holi Animation Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Happy Holi Animation Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Heroes-LandingPage/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Heroes LandingPage — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Heroes LandingPage by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Isometric-Menu-Hover-Effects-3D-Menu/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Isometric Menu Hover Effects 3D Menu — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Isometric Menu Hover Effects 3D Menu by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/MyPortfolio.github.io/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>MyPortfolio.github.io — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: MyPortfolio.github.io by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/New-Year-2025/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>New Year 2025 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: New Year 2025 by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Parallax-Scrolling-Website-using-Scroll-Trigger/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Parallax Scrolling Website using Scroll Trigger — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Parallax Scrolling Website using Scroll Trigger by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Police-Vs-Taxi-Running-Car-Animation-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Police Vs Taxi Running Car Animation Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Police Vs Taxi Running Car Animation Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Product-Card-Hover-Effect-Cocacola-Card-UI-Design/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Product Card Hover Effect Cocacola Card UI Design — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Product Card Hover Effect Cocacola Card UI Design by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Simple-Star-Rating/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Simple Star Rating — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Simple Star Rating by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Stop-Watch/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Switch-On-Off-Light-Bulb-With-Sound/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Tab-Navigation-Menu/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Text-Animation-Effects/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Tic-Tac-Toe-Game/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/To-Do-List/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/To-Do-Project/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-1/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-2/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-3/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-4/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-With-Login-And-Register/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Stop Watch — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Stop Watch by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/suleimanhajizadeh.github.io/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>suleimanhajizadeh.github.io — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: suleimanhajizadeh.github.io by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://suleimanhtmlcssjsanimationgallery.github.io/svg/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>svg — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: svg by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Switch-On-Off-Light-Bulb-With-Sound/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Switch On Off Light Bulb With Sound — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Switch On Off Light Bulb With Sound by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Tab-Navigation-Menu/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Tab Navigation Menu — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Tab Navigation Menu by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Text-Animation-Effects/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Text Animation Effects — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Text Animation Effects by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Tic-Tac-Toe-Game/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Tic Tac Toe Game — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Tic Tac Toe Game by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/To-Do-List/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>To Do List — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: To Do List by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/To-Do-Project/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>To Do Project — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: To Do Project by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-1/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Website 1 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Website 1 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-2/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Website 2 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Website 2 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-3/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Website 3 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Website 3 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-4/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Website 4 — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Website 4 by Suleiman Hajizadeh</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://suleimanhtmlcssjsanimationgallery.github.io/Website-With-Login-And-Register/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://suleimanhtmlcssjsanimationgallery.github.io/logo-banner.png</image:loc>
+      <image:title>Website With Login And Register — CSS3 &amp; JavaScript Web Animation</image:title>
+      <image:caption>Interactive demo: Website With Login And Register by Suleiman Hajizadeh</image:caption>
+    </image:image>
   </url>
 </urlset>

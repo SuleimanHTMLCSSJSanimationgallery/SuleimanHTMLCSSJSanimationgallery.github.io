@@ -1,0 +1,18 @@
+/* TEAM */
+  Creator & Architect: Suleiman Hajizadeh
+  Site: https://github.com/SuleimanHajizadeh
+  Affiliation: Western Caspian University (Baku, Azerbaijan)
+  Email: suleyman.hacizade1@gmail.com
+  Roles: Frontend Engineering, Bioinformatics, Computational Structural Biology
+
+/* THANKS */
+  Community: Open Source Web Developers & Creative Coders
+  Institution: Western Caspian University
+
+/* SITE */
+  Standards: HTML5, CSS3, ES6+ JavaScript, Web Animations API, Canvas 2D, SVG SMIL
+  Architecture: Zero-Framework Vanilla Core + Obsidian LLM Wiki
+  Components: 57 Production-Ready Creative Modules
+  Hosting: GitHub Pages (Custom Domain & HTTPS Enforced)
+  Software: Visual Studio Code, Git, Google Antigravity
+  Language: English / Azerbaijani

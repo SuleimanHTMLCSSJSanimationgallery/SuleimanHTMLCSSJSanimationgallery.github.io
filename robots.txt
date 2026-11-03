@@ -1,4 +1,42 @@
+# ==============================================================================
+# Robots.txt for Suleiman HTML CSS JS Animation Gallery
+# https://suleimanhtmlcssjsanimationgallery.github.io/
+# ==============================================================================
+
 User-agent: *
 Allow: /
+Disallow: /404.html
 
+# Major Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+Disallow: /404.html
+
+User-agent: Googlebot-Image
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.svg$
+Allow: /*.webp$
+
+User-agent: Bingbot
+Allow: /
+Disallow: /404.html
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+Host: https://suleimanhtmlcssjsanimationgallery.github.io
 Sitemap: https://suleimanhtmlcssjsanimationgallery.github.io/sitemap.xml
